@@ -10,8 +10,8 @@ Note:  this is an expirimental image
 
 ```
 docker run -it --rm --name varnish \
- --env 'CACHE_SIZE=128m'
--v /local/vlc/on/host/:/etc/varnish jeroen/varnish5
+ --env 'CACHE_SIZE=128m' \
+ -v /local/vlc/on/host/:/etc/varnish jeroenbo/varnish5
 
 ```
 
